@@ -1,0 +1,5 @@
+associations:
+  adapter: sqlite3
+  database: db/associations.sqlite
+  pool: 5
+  timeout: 5000
