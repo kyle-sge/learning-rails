@@ -89,3 +89,13 @@ Hints are available in the /hints directory.
 + associations
  + Add associations to the models to pass the tests
  + Write migrations in the db/migrate directory to create the tables backing the models
+
+****
+
+### Integration
+
+#### Exercises
++ blog
+ + Copy the completed router, connection adapter, basic active record, basic controller, and front controller to the blog subdirectory
+ + Create a blog application that fulfills the tests
+ + Run the server with "thin start -R config.ru" to see your application in action
