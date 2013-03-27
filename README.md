@@ -22,8 +22,8 @@ Hints are available in the /hints directory.
 ### Rack
 
 #### Readings
-+ Original [introduction](http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html)
-+ Succinct [primer](http://codefol.io/posts/14--What-is-Rack-A-Primer)
++ [Original introduction](http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html)
++ [Rack Basics](http://blog.crowdint.com/2010/11/17/rack-basics-a-rack-introduction.html)
 + [RailsGuide](http://guides.rubyonrails.org/rails_on_rack.html)
 
 #### Exercises
@@ -38,6 +38,8 @@ Hints are available in the /hints directory.
 ### Router
 
 ####  Readings
++ [Blocks, Procs, and Lambdas](http://www.tweetegy.com/2012/01/ruby-blocks-procs-and-lambdas)
++ [Building DSLs with yield and instance_eval](http://rubylearning.com/blog/2010/11/30/how-do-i-build-dsls-with-yield-and-instance_eval)
 + [RailsGuide](http://guides.rubyonrails.org/routing.html)
 
 ####  Exercises
