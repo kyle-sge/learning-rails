@@ -39,12 +39,18 @@ Hints are available in the /hints directory.
 
 ####  Readings
 + [Blocks, Procs, and Lambdas](http://www.tweetegy.com/2012/01/ruby-blocks-procs-and-lambdas)
++ [Interactive Blocks, Procs, and Lambdas Tutorial from Codeacademy](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI)
++ Offical Ruby documentation
+ + [Proc](http://ruby-doc.org/core-2.0/Proc.html)
+ + [Lambda](http://www.ruby-doc.org/core-2.0/Kernel.html#method-i-lambda)
+ + [Containers, Blocks, and Iterators](http://www.ruby-doc.org/docs/ProgrammingRuby/html/tut_containers.html)
 + [Building DSLs with yield and instance_eval](http://rubylearning.com/blog/2010/11/30/how-do-i-build-dsls-with-yield-and-instance_eval)
 + [RailsGuide](http://guides.rubyonrails.org/routing.html)
 
 ####  Exercises
 + Router
  + Create a simple router that can recognize the controller and action corresponding to the path (e.g. "/" => ["controller", "action"])
+ + 
 
 ****
 
@@ -52,12 +58,17 @@ Hints are available in the /hints directory.
 
 #### Readings
 + [API](http://apidock.com/rails/ActiveRecord/Base)
++ [Rails for Zombies](http://railsforzombies.org/)
++ [SQLite3 gem documentation](http://rdoc.info/github/luislavena/sqlite3-ruby)
++ [SQLite PRAGMA statements](http://www.sqlite.org/pragma.html)
++ [Ruby inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
++ [ActiveSuppoert::Inflector](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
 
 #### Exercises
 + connection adapter
  + Create a simple connection adapter that allows sql to be executed on the opened connection and provides the helper methods described in the test
  + The sqlite3 gem is used to connect to the existing "shared/db/development.sqlite" database
-+ basic active record
++ basic active record (prereq: connection adapter tests must pass)
  + Create a basic implementation of the active record pattern by implementing the empty Base class of the BasicActiveRecord model
  + This class should use the connection adapter created earlier
  + The test uses a model that inherits from BasicActiveRecord::Base
