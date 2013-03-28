@@ -63,6 +63,7 @@ Hints are available in the /hints directory.
 + [SQLite PRAGMA statements](http://www.sqlite.org/pragma.html)
 + [Ruby inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
 + [ActiveSuppoert::Inflector](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
++ [Dynamically creating class attributes](http://stackoverflow.com/questions/4082665/dynamically-create-class-attributes-with-attr-accessor)
 
 #### Exercises
 + connection adapter
