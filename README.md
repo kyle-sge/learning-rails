@@ -50,7 +50,6 @@ Hints are available in the /hints directory.
 ####  Exercises
 + Router
  + Create a simple router that can recognize the controller and action corresponding to the path (e.g. "/" => ["controller", "action"])
- + 
 
 ****
 
@@ -62,13 +61,14 @@ Hints are available in the /hints directory.
 + [SQLite3 gem documentation](http://rdoc.info/github/luislavena/sqlite3-ruby)
 + [SQLite PRAGMA statements](http://www.sqlite.org/pragma.html)
 + [Ruby inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
-+ [ActiveSuppoert::Inflector](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
++ [ActiveSupport::Inflector](http://api.rubyonrails.org/classes/ActiveSupport/Inflector.html)
 + [Dynamically creating class attributes](http://stackoverflow.com/questions/4082665/dynamically-create-class-attributes-with-attr-accessor)
 
 #### Exercises
 + connection adapter
  + Create a simple connection adapter that allows sql to be executed on the opened connection and provides the helper methods described in the test
  + The sqlite3 gem is used to connect to the existing "shared/db/development.sqlite" database
+ + Please attempt to limit usage of the sqlite3 gem functionality to sql queries
 + basic active record (prereq: connection adapter tests must pass)
  + Create a basic implementation of the active record pattern by implementing the empty Base class of the BasicActiveRecord model
  + This class should use the connection adapter created earlier
