@@ -3,6 +3,11 @@ require File.expand_path('../../shared/models/post', __FILE__)
 
 describe "the post basic active record model" do
 
+  it "uses the connection adapter" do
+    Post.class_variable_defined?('@@connection').should == true
+    Post.class_eval{class_variable_get('@@connection')}.class.should == SqliteAdapter
+  end
+
   it "pluralizes model name for table name" do
     table_name = Post.table_name
     table_name.should == "posts"
