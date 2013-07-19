@@ -10,12 +10,21 @@ Completion of these tasks will provide a brief overview of how one might approac
 
 While some tasks may be completed independently of others, other tasks will require successful completion of prior tasks.
 
+Your system must have Ruby 2.0.0 installed, as well as the Ruby Version Manager.  The repo contains two files (.ruby-version and .ruby-gemset) that will change the version of Ruby and Rails that your machine is using whenever you enter its directory.
+
+After entering the directory, make sure to execute `bundle install`
+
 ## Topics
-The following topics have exercises which may be tested by running "rake spec" in the exercise's directory.
 
 Each exercise will have its own directory.
 
 Hints are available in the /hints directory.
+
+To run the tests for each exercise, use
+
+`rake spec`
+
+
 
 ****
 
