@@ -12,7 +12,7 @@ While some tasks may be completed independently of others, other tasks will requ
 
 Your system must have Ruby 2.0.0 installed, as well as the Ruby Version Manager.  The repo contains two files (.ruby-version and .ruby-gemset) that will change the version of Ruby and Rails that your machine is using whenever you enter its directory.
 
-After entering the directory, make sure to run `rvm reload` to force RVM to load the .ruby-version and .ruby-gemset files.  Once this is done, run `bundle install`
+If the branch has changed since you have entered the repo's directory, make sure to run `rvm reload` to force RVM to load the .ruby-version and .ruby-gemset files.  After running `rvm reload` or if it is unnecessary, run `bundle` or `bundle install`
 
 ## Topics
 
